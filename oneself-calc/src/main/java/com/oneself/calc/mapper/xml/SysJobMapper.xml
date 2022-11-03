@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oneself.calc.mapper.SysJobMapper">
+
+    <resultMap type="com.oneself.calc.entity.SysJob" id="SysJobMap">
+        <result property="jobId" column="job_id" jdbcType="INTEGER"/>
+        <result property="jobName" column="job_name" jdbcType="VARCHAR"/>
+        <result property="jobGroup" column="job_group" jdbcType="VARCHAR"/>
+        <result property="invokeTarget" column="invoke_target" jdbcType="VARCHAR"/>
+        <result property="cronExpression" column="cron_expression" jdbcType="VARCHAR"/>
+        <result property="misfirePolicy" column="misfire_policy" jdbcType="VARCHAR"/>
+        <result property="concurrent" column="concurrent" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="createBy" column="create_by" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateBy" column="update_by" jdbcType="VARCHAR"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+        <result property="remark" column="remark" jdbcType="VARCHAR"/>
+        <result property="startDate" column="start_date" jdbcType="TIMESTAMP"/>
+        <result property="endDate" column="end_date" jdbcType="TIMESTAMP"/>
+        <result property="times" column="times" jdbcType="INTEGER"/>
+    </resultMap>
+
+ <sql id="Base_Column_List">
+    job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, update_by, update_time, remark, start_date, end_date, times    
+ </sql>
+
+    <select id="selectByJobName" resultMap="SysJobMap">
+        select
+        <include refid="Base_Column_List"/>
+        from
+        sys_job
+        where  job_name = #{jobName}
+        limit 1
+    </select>
+
+</mapper>
+

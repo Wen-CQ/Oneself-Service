@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/oneself-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-calc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-design/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-elasticSearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-flink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-learn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-lock/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-mongoDB/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-mongoDB/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-oracle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-oracle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-rocketMQ/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-run/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-run/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-thread/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneself-websocket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

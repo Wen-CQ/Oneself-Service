@@ -1,0 +1,7 @@
+com\oneself\lock\example\HeavyweightLock.class
+com\oneself\lock\example\FairLock.class
+com\oneself\lock\example\LightweightLock.class
+com\oneself\lock\example\SpinLock.class
+com\oneself\lock\example\DeflectionLock.class
+com\oneself\lock\example\ExampleLock.class
+com\oneself\lock\example\NoReentrantLock.class

@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.oneself</groupId>
+		<artifactId>oneself-service</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>oneself-run</artifactId>
+
+    <dependencies>
+
+		<dependency>
+			<groupId>com.oneself</groupId>
+			<artifactId>oneself-business</artifactId>
+			<version>${oneself.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oneself</groupId>
+			<artifactId>oneself-learn</artifactId>
+			<version>${oneself.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oneself</groupId>
+			<artifactId>oneself-system</artifactId>
+			<version>${oneself.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<profiles.active>application-dev</profiles.active>
+			</properties>
+		</profile>
+		<profile>
+			<id>sit</id>
+			<properties>
+				<profiles.active>application-sit</profiles.active>
+			</properties>
+		</profile>
+		<profile>
+			<id>stg</id>
+			<properties>
+				<profiles.active>application-stg</profiles.active>
+			</properties>
+		</profile>
+		<profile>
+			<id>prd</id>
+			<properties>
+				<profiles.active>application-prd</profiles.active>
+			</properties>
+		</profile>
+	</profiles>
+</project>

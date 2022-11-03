@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Oneself-Service.iml" filepath="$PROJECT_DIR$/.idea/Oneself-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-business/oneself-business.iml" filepath="$PROJECT_DIR$/oneself-business/oneself-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-calc/oneself-calc.iml" filepath="$PROJECT_DIR$/oneself-calc/oneself-calc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-common/oneself-common.iml" filepath="$PROJECT_DIR$/oneself-common/oneself-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-datasource/oneself-datasource.iml" filepath="$PROJECT_DIR$/oneself-datasource/oneself-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-design/oneself-design.iml" filepath="$PROJECT_DIR$/oneself-design/oneself-design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-elasticSearch/oneself-elasticSearch.iml" filepath="$PROJECT_DIR$/oneself-elasticSearch/oneself-elasticSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-flink/oneself-flink.iml" filepath="$PROJECT_DIR$/oneself-flink/oneself-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-kafka/oneself-kafka.iml" filepath="$PROJECT_DIR$/oneself-kafka/oneself-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-learn/oneself-learn.iml" filepath="$PROJECT_DIR$/oneself-learn/oneself-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-lock/oneself-lock.iml" filepath="$PROJECT_DIR$/oneself-lock/oneself-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-mongoDB/oneself-mongoDB.iml" filepath="$PROJECT_DIR$/oneself-mongoDB/oneself-mongoDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-oracle/oneself-oracle.iml" filepath="$PROJECT_DIR$/oneself-oracle/oneself-oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-redis/oneself-redis.iml" filepath="$PROJECT_DIR$/oneself-redis/oneself-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-rocketMQ/oneself-rocketMQ.iml" filepath="$PROJECT_DIR$/oneself-rocketMQ/oneself-rocketMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-run/oneself-run.iml" filepath="$PROJECT_DIR$/oneself-run/oneself-run.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-system/oneself-system.iml" filepath="$PROJECT_DIR$/oneself-system/oneself-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-thread/oneself-thread.iml" filepath="$PROJECT_DIR$/oneself-thread/oneself-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-transaction/oneself-transaction.iml" filepath="$PROJECT_DIR$/oneself-transaction/oneself-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneself-websocket/oneself-websocket.iml" filepath="$PROJECT_DIR$/oneself-websocket/oneself-websocket.iml" />
+    </modules>
+  </component>
+</project>

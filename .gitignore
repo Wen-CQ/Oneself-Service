@@ -1,0 +1,7 @@
+# Project exclude paths
+/oneself-business/target/
+/oneself-calc/target/
+/oneself-common/target/
+/oneself-flink/target/
+/oneself-run/target/
+/oneself-system/target/

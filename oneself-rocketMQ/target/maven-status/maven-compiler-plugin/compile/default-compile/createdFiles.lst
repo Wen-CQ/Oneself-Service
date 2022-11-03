@@ -1,0 +1,5 @@
+com\oneself\rocketMQ\consumer\BaseMQConsumer.class
+com\oneself\rocketMQ\producer\BaseMQProducer$1.class
+com\oneself\rocketMQ\producer\BaseMQProducer.class
+com\oneself\rocketMQ\factory\SimpleMessageFactory.class
+com\oneself\rocketMQ\factory\AbstractMQProducer.class

@@ -1,0 +1,8 @@
+com\oneself\kafka\Listener\KafkaConsumerListener.class
+com\oneself\kafka\producer\KafkaProducer.class
+com\oneself\kafka\consumer\KafkaConsumer.class
+com\oneself\kafka\producer\KafkaProducer$1.class
+com\oneself\kafka\producer\AbstractProducer.class
+com\oneself\kafka\consumer\AbstractConsumer.class
+com\oneself\kafka\config\KafkaConsumerConfig.class
+com\oneself\kafka\config\KafkaProducerConfig.class

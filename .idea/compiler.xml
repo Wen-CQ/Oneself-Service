@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oneself-elasticSearch" />
+        <module name="oneself-calc" />
+        <module name="oneself-run" />
+        <module name="oneself-system" />
+        <module name="oneself-design" />
+        <module name="oneself-oracle" />
+        <module name="oneself-learn" />
+        <module name="oneself-rocketMQ" />
+        <module name="oneself-transaction" />
+        <module name="oneself-websocket" />
+        <module name="oneself-datasource" />
+        <module name="oneself-lock" />
+        <module name="oneself-flink" />
+        <module name="oneself-thread" />
+        <module name="oneself-redis" />
+        <module name="oneself-common" />
+        <module name="oneself-kafka" />
+        <module name="oneself-mongoDB" />
+        <module name="oneself-business" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oneself-business" target="1.8" />
+      <module name="oneself-calc" target="1.8" />
+      <module name="oneself-common" target="1.8" />
+      <module name="oneself-datasource" target="1.8" />
+      <module name="oneself-design" target="1.8" />
+      <module name="oneself-elasticSearch" target="1.8" />
+      <module name="oneself-flink" target="1.8" />
+      <module name="oneself-kafka" target="1.8" />
+      <module name="oneself-learn" target="1.8" />
+      <module name="oneself-lock" target="1.8" />
+      <module name="oneself-mongoDB" target="1.8" />
+      <module name="oneself-oracle" target="1.8" />
+      <module name="oneself-redis" target="1.8" />
+      <module name="oneself-rocketMQ" target="1.8" />
+      <module name="oneself-run" target="1.8" />
+      <module name="Oneself-Service" target="1.8" />
+      <module name="oneself-service-business" target="1.8" />
+      <module name="oneself-service-calc" target="1.8" />
+      <module name="oneself-service-common" target="1.8" />
+      <module name="oneself-service-flink" target="1.8" />
+      <module name="oneself-service-run" target="1.8" />
+      <module name="oneself-service-system" target="1.8" />
+      <module name="oneself-system" target="1.8" />
+      <module name="oneself-thread" target="1.8" />
+      <module name="oneself-transaction" target="1.8" />
+      <module name="oneself-websocket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="oneself-business" options="-parameters" />
+      <module name="oneself-calc" options="-parameters" />
+      <module name="oneself-common" options="-parameters" />
+      <module name="oneself-datasource" options="-parameters" />
+      <module name="oneself-design" options="-parameters" />
+      <module name="oneself-elasticSearch" options="-parameters" />
+      <module name="oneself-flink" options="-parameters" />
+      <module name="oneself-kafka" options="-parameters" />
+      <module name="oneself-learn" options="-parameters" />
+      <module name="oneself-lock" options="-parameters" />
+      <module name="oneself-mongoDB" options="-parameters" />
+      <module name="oneself-oracle" options="-parameters" />
+      <module name="oneself-redis" options="-parameters" />
+      <module name="oneself-rocketMQ" options="-parameters" />
+      <module name="oneself-run" options="-parameters" />
+      <module name="oneself-service-business" options="-parameters" />
+      <module name="oneself-service-calc" options="-parameters" />
+      <module name="oneself-service-common" options="-parameters" />
+      <module name="oneself-service-flink" options="-parameters" />
+      <module name="oneself-service-run" options="-parameters" />
+      <module name="oneself-service-system" options="-parameters" />
+      <module name="oneself-system" options="-parameters" />
+      <module name="oneself-thread" options="-parameters" />
+      <module name="oneself-transaction" options="-parameters" />
+      <module name="oneself-websocket" options="-parameters" />
+    </option>
+  </component>
+</project>
